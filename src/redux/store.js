@@ -1,3 +1,4 @@
-import {createStore} from 'redux'
+import {applyMiddleware, createStore} from 'redux'
 import { rootReducer } from './Reducer'
-export let store=createStore(rootReducer)
+import {thunk} from 'redux-thunk'
+export let store=createStore(rootReducer,applyMiddleware(thunk))

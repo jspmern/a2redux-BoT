@@ -1,3 +1,6 @@
 export let INC="INC"
 export let DEC="DEC"
 export let SAVE="SAVE"
+export let LOADING="LOADING"
+export let FETCHED="FETCHED"
+export let ERROR="ERROR"
